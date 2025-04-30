@@ -3,16 +3,19 @@ Allows you to use your 3ds as a soundboard.
 
 # Prerequisites : 
 You have to dump the DSP firmware to play sounds. To do so, open the rosalina menu (mostly of the time the combo key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.
+
 Sounds must have these characteristics :
   - being in *.wav format
   - a sample rate set to 44100 Hz
   - channels set to mono
+
 For instance (from Audacity) :
 
 ![image](https://github.com/user-attachments/assets/dd3da4ca-e8ea-46c0-a530-8df6af6e589b)
 
 # Limitations :
 Up to 64 files,
+
 the order can not be changed.
 
 # App screenshots :
