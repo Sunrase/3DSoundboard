@@ -2,7 +2,7 @@
 Allows you to use your 3ds as a soundboard.
 
 # Prerequisites : 
-You have to dump the DSP firmware to play sounds. To do so, open the rosalina menu (mostly of the time the combo key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.
+You have to dump the DSP firmware to play sounds. To do this, open the rosalina menu (most of the time the combonation key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.
 
 Sounds must have these characteristics :
   - being in *.wav format
