@@ -120,6 +120,7 @@ int Game(C3D_RenderTarget* top, C3D_RenderTarget* bottom) {
     SetFilesPos(nb_files, AudioFiles_pos);
 
     int specs = 0;
+    int touch_pos_to_int;
     int i_file = 0;
     int page = 0;
     int nb_audio_to_print = 0;
@@ -187,9 +188,10 @@ int Game(C3D_RenderTarget* top, C3D_RenderTarget* bottom) {
         }
 
         if (kDown & KEY_TOUCH){
-            i_file = IntFromTouchPos(touch.px, touch.py, page);
-            if (i_file < nb_files){
+            touch_pos_to_int = IntFromTouchPos(touch.px, touch.py, page);
+            if (touch_pos_to_int < nb_audio_to_print){
                 //printf("%d", i_file);
+                i_file = touch_pos_to_int;
                 selected = 90;
                 PlayWavFromPath(AudioFiles[i_file + page*FILES_PER_SCREEN]);
             }
