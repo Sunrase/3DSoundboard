@@ -8,6 +8,7 @@ Sounds must have these characteristics :
   - being in *.wav format
   - a sample rate set to 44100 Hz
   - channels set to mono
+  - be placed in the '3DSoundBoard' folder, in the '3ds' folder
 
 For instance (from Audacity) :
 
