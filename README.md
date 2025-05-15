@@ -1,5 +1,5 @@
 # 3DSoundboard
-Allows you to use your 3ds as a soundboard.
+A 3ds homebrew that allows you to use your 3ds as a soundboard.
 
 # Prerequisites : 
 You have to dump the DSP firmware to play sounds. To do this, open the rosalina menu (most of the time the combonation key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.
